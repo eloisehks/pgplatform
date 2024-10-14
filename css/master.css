@@ -21,6 +21,34 @@
     background: linear-gradient(13deg, rgb(22, 99, 255) 0%, rgb(98, 0, 255) 45%, rgba(255,255,255,0.8) 100%);
 }
 
+.bgcolor-b {
+  background: rgb(236, 172, 244);
+  background: linear-gradient(195deg, rgba(46, 54, 158, 0.7) 0%, rgb(159, 231, 255) 45%, rgba(255,255,255,0.8) 100%);
+}
+
+.index-hero {
+  background-image: url('../assets/img/pic-index.svg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 50% 100%;
+  background-position: right;
+}
+.index-hero-img {
+  display: none;
+}
+@media (max-width: 767px) {
+  .index-hero {
+    background-image: url('../assets/img/pic-index.svg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-position:0dvb;
+  }
+  .index-hero-img {
+    display: block;
+  }
+}
+
 /* Google font */
 .poppins-extralight {
     font-family: "Poppins", system-ui;
@@ -243,5 +271,3 @@
     background: linear-gradient(#3763eb 0%, #6f58e8 100%);
     color: #fff;
   }
-  
-  
